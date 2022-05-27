@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export><version>5.0</version><date>2022-05-27T13:09:54Z</date><groups><group><name>Templates/Mikrotik</name></group></groups><templates><template><template>Template Mikrotik Switch</template><name>Template Mikrotik - Switch</name><templates><template><name>Template Mikrotik CPU Cores</name></template><template><name>Template Mikrotik Recursos</name></template><template><name>Template SNMP Base</name></template><template><name>Template SNMP Interfaces - Completo</name></template></templates><groups><group><name>Templates/Mikrotik</name></group></groups><applications><application><name>CPU Cores</name></application></applications></template></templates></zabbix_export>
+

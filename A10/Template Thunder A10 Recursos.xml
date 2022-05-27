@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export><version>5.0</version><date>2022-05-27T13:09:50Z</date><groups><group><name>Templates/A10</name></group></groups><templates><template><template>Template Thunder A10 Recursos</template><name>Template Thunder A10 Recursos</name><groups><group><name>Templates/A10</name></group></groups></template></templates></zabbix_export>
+

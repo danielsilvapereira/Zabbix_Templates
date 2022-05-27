@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zabbix_export><version>5.0</version><date>2022-05-27T13:09:52Z</date><groups><group><name>Templates/Zabbix</name></group></groups><templates><template><template>Template Zabbix Status Item API</template><name>Template Zabbix: Status Item (API)</name><groups><group><name>Templates/Zabbix</name></group></groups><items><item><name>Json - Get Item Last Value</name><type>HTTP_AGENT</type><key>json.get.item.last.value</key><trends>0</trends><value_type>TEXT</value_type><url>http://186.216.240.41/zabbix/api_jsonrpc.php</url><posts>{&#13;
+    &quot;jsonrpc&quot;: &quot;2.0&quot;,&#13;
+    &quot;method&quot;: &quot;item.get&quot;,&#13;
+    &quot;params&quot;: {&#13;
+        &quot;output&quot;: [&quot;name&quot;,&quot;lastvalue&quot;],&#13;
+        &quot;hostids&quot;: &quot;15414&quot;,&#13;
+        &quot;sortfield&quot;: &quot;name&quot;&#13;
+    },&#13;
+    &quot;auth&quot;: &quot;6b883426ee08c6b9544ccbc93154617cc2904ed67559b407d52bdb098fdefc6b&quot;,&#13;
+    &quot;id&quot;: 2&#13;
+}</posts><post_type>JSON</post_type><request_method>POST</request_method><output_format>JSON</output_format></item></items></template></templates></zabbix_export>
+
